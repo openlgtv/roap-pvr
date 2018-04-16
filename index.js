@@ -78,10 +78,12 @@ if(args.length > 1){
 	pKey = parseInt(args[1]);
 }
 
+/*
 if(pKey == 0){
 	console.error("No pairing key specified");
 	return 1;
 }
+*/
 
 process.once("SIGINT", function(){
 	streamStop(roap);
